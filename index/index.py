@@ -1,4 +1,5 @@
-#This is  basics of python 
-#Topics : OOps,Inheritance   
-#first we will start with opps concepts eg: inheritance, abstraction etc.print
-print("Hello World!")
+name = "Gagan"
+age = 18
+name = "Vijay"
+age = 20
+print(name,age)
