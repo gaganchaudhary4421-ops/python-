@@ -1,2 +1,10 @@
-#Keywords in python
-#and, as, assert, break, class, continue, def, del, elif, else, except, exec, finally, for, from, global, if, import, in, is, lambda, not, or, pass, print, raise, return, try, while, with, yield
+product1=float(input("Enter the price of product 1: "))
+product2=float(input("Enter the price of product 2: "))
+product3=float(input("Enter the price of product 3: "))
+total = product1 + product2 + product3
+print("The total price of the products is: ", total)
+Average = total / 3
+print("The average price of the products is: ", Average)
+name = input("Enter your name: ")
+print("Hello, ", name, "! Thank you for shopping with us.")
+print(name.find("S"))
