@@ -1,6 +1,6 @@
-#Function 
-
-def calc_gst(price):
-    newprice = price + price * 0.18
-    print(newprice)
-calc_gst(166)#comment
+#conditional Statements 
+age = 18
+if age > 18:
+    print("bssds")
+else:
+    print("sbs")
