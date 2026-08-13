@@ -5,5 +5,10 @@ class student:
     def __init__(self,name,marks):
         self.name=name
         self.marks=marks
-s1 = student("Amit",90)
-s1.hello()
+    def Avg(self):
+        sum = 0
+        for i in self.marks:
+            sum +=i
+        print("Average marks of",self.name,"is",sum/len(self.marks))
+s1 = student("Amit",[90,98,37])
+s1.Avg()
