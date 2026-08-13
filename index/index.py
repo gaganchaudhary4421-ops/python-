@@ -12,3 +12,4 @@ class student:
         print("Average marks of",self.name,"is",sum/len(self.marks))
 s1 = student("Amit",[90,98,37])
 s1.Avg()
+#Learning Static Methods
