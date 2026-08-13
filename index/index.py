@@ -6,4 +6,4 @@ class student:
         self.name=name
         self.marks=marks
 s1 = student("Amit",90)
-print(s1.name)
+s1.hello()
