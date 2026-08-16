@@ -7,4 +7,4 @@ class Employee:
         print(f"Role: {self.role}, Department: {self.department}, Salary: {self.salary}")
 e1=Employee("Manager","HR",50000)
 e1.showDetails()
-print("Employee class is created successfully")
+ 
