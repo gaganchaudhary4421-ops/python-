@@ -1,9 +1,6 @@
-class Order:
-    def __init__(self,item,price):
-        self.item=item
-        self.price=price
-    def __gt__(self,odr2):
-        return self.price>odr2.price
-odr1=Order("Laptop",1000)
-odr2=Order("Mobile",500)
-print(odr1>odr2)
+cities=["New York", "Los Angeles", "Chicago", "Houston", "Phoenix", "Philadelphia", "San Antonio", "San Diego", "Dallas", "San Jose"]
+Brand = ["Apple", "Samsung", "Google", "Microsoft", "Amazon", "Facebook", "Tesla", "Nike", "Adidas", "Coca-Cola"]
+def print_length(list):
+    print(len(list))
+print_length(cities)
+print_length(Brand)
