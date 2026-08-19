@@ -1,4 +1,4 @@
-def print_list(list,idx):
+def print_list(list,idx=0):
     if(idx == len(list)):
         return
     print(list[idx])
