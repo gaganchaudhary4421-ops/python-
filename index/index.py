@@ -4,4 +4,4 @@ def show(n):
         return
     print(n)
     show(n-1)
-show(59999999999999999999)
+show(50)
